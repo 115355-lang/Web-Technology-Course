@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: aliceblue;
+        }
+        h1{
+            font-size: 2em;
+            text-align: center;
+            color: rgb(6, 6, 207);    
+            margin-bottom: 30px;
+            text-transform: uppercase;
+
+        }
+label{
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 200px;
+
+}
+.input label{
+    margin-left: 200px;
+}
+.input{
+    width: 600px;
+    display: inline;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 12px 24px;
+            margin-bottom: 20px;
+            font-size: 16px;
+transition: all 0.2s ease-in-out;
+font-size: 16px;
+}
+form{
+    max-width: 900px;
+   margin: 20px;
+            padding: 40px;
+            background: white;
+            border-radius: 15px;    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            background-color: rgb(238, 246, 246);
+}
+form:hover{
+    transform: translateY(-6px);
+}
+.chkbox {
+    margin-bottom: 20px;
+    color: #34495e;
+    font-weight: 500px;
+    width: 1000px;
+    margin-left: 0px;
+
+}
+.chkbox p{
+    display: inline;
+    color: black;
+    margin-right: 20px;
+}
+.chkbox label{
+    display: inline;
+    margin-right: 35px;
+    font-weight: normal;
+}
+button{
+padding: 12px 24px;
+            background: linear-gradient(to right, #4c54af, #454ca0);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: bold;
+            width: 700px;
+            transition: all 0.3s ease;
+}
+.button:hover{
+    background: linear-gradient(to right, #3e49c4, #4650bd);
+           
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}            
+    </STYLE>
+</head>
+<body>
+    <form action="">
+        <div>
+            <h1>Registration Form</h1>
+        </div>
+        <div>
+            <label for="Email">Enter Email Address : </label>
+            <input type="email" placeholder="Enter Email" id="Email" class="input">
+        </div>
+        <div>
+            <label for="Username">Enter Username : </label>
+            <input type="text" placeholder="Enter Username" id="Username" class="input">
+        </div>
+         <div>
+            <label for="password">Enter Password : </label>
+            <input type="password" placeholder="Enter Password" id="password" class="input">
+        </div>
+
+        <div class="chkbox">
+           <p>Select Your Degree : </p>
+           <input type="checkbox" id="cs" class="chk">
+            <label for="cs">BSCS</label>
+            <input type="checkbox" id="phy" class="chk">
+            <label for="phy">BS-PHYSICS</label>
+            <input type="checkbox" id="che" class="chk">
+            <label for="che">BS-CHEMICAL ENGINEERING</label>
+            <input type="checkbox" id="MATH" class="chk">
+            <label for="MATH">BS-MATHS</label>
+        </div>
+<div class="button">        <BUTTON>SUBMIT</BUTTON>
+</div>
+    </form>
+</body>
+</html>
