@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+
+            justify-content: center;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+       label {
+            display: inline-block;
+             width: 150px; 
+             margin-bottom: 10px; 
+            }
+        input[type="text"],
+        input[type="password"] {
+            width: 500px;
+            padding: 10px;
+            display: inline;
+            margin-bottom: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            align-content: center;
+            justify-content: center;
+            width: 500px;
+            
+        }
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+            height: auto;
+            }
+         .loginForm {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            justify-content: center;
+        }
+          
+        
+        .furqan1{
+            max-width: 120px;
+        }
+        .btn{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="loginForm">
+    <h1>
+        <h1>Login Form</h1>
+    </h1>
+<br><label for="username">Enter Username: </label>
+<input type="text" placeholder="Type UserName"  id="username" class = "hello"><br>
+<label for="password">Enter Password: </label>
+<input type="password" placeholder="Type Password"  id="password" class="hello"><br>
+<label for="languages">Select Languages: </label><div  class="furqan">
+<input type="checkbox" id="English"><label for="English" class="furqan1">English</label>
+<input type="checkbox" id="Spanish"><label for="Spanish" class="furqan1">Spanish</label>
+<input type="checkbox" id="French"><label for="French" class="furqan1">French</label>
+<input type="checkbox" id="German"><label for="German" class="furqan1">German</label></div>
+<br><div class="btn"><button type="submit">Login</button></div>
+</div>
+</body>
+</html>
